@@ -1,0 +1,283 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 1,2px;
+    color: grey;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    padding: 16px 0;
+}
+
+h3 {
+    font-size: 1.1em;
+    padding: 0;
+    margin: 4px 0;
+    font-weight: none;
+    
+    
+}
+
+span {
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 12px; 
+}
+
+h4 {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+h5 {
+    font-size: 8.8px;
+}
+
+hr {
+
+    border-top: 0.5px solid grey;
+
+}
+
+a {
+    font-size: 17px;
+    line-height: 22px;
+    display: inline;
+    cursor: pointer;
+    color: #00859d;
+    margin: 22px 0 22px 0;
+}
+
+.header {
+    background-image: url("http://cdn.animalhi.com/1920x1080/20121101/beach%20boats%20painted%20fishing%20puerto%20rico%20vehicles%201920x1080%20wallpaper_www.animalhi.com_92.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    padding: 15px 0 0 10px;
+}
+
+.heart {
+    width: 44px;
+    height: 40px;
+}
+
+
+.flex-container {
+    display: flex;
+    max-width: 700px;
+}
+
+.flex-direction {
+    display:flex;
+    flex-direction: column;
+    padding: 19px 12px 12px 0;
+}
+
+
+.button-container {
+    width: 50%;
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+input {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+select {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.full {
+    width: 90%;
+}
+
+.white {
+    background: white;
+    color: black;
+}
+
+.blue {
+    background: #8ea2a8;
+    border: solid 1px white;
+    color: white;
+}
+
+.grey {
+    background: #008389;
+    border: solid 1px white;
+    color: white;
+}
+
+.red {
+    background: #ff5a5f;
+    color: white;
+}
+
+.box {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 25%;
+}
+
+.flex-responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+.mt19 {
+    margin-top: 28px;
+}
+
+.mt20 {
+    padding: 10px 22px;
+    margin: 20px 0;
+}
+
+.subtitle {
+    display: flex;
+    align-items: center;
+}
+
+.commentaires {
+    display: flex;
+}
+
+.card {
+    padding: 10px;
+
+}
+
+.icon {
+    width: 24px;
+}
+
+.img {
+    width: 100%;
+}
+
+.person {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+}
+
+.person .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.avatar {
+    width: 50px;
+}
+
+.cotation {
+    width: 50%;
+}
+
+.description {
+    width: 100%;
+    max-width: 100%;
+}
+
+.droits {
+    width: 168px;
+    height: 52px;
+}
+
+.iconesface {
+    width: 58px;
+    height: 42px;
+}
+
+.pointer {
+    font-size: 17px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #00859d;
+    margin: 22px 0 50px 0;
+}
+
+.box > .title > .subtitle > p{
+
+    font-size: 18px;
+
+}
+
+.commentaires > .card > span {
+    font-size: 12px;
+    color: grey;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .flex-responsive {
+        flex-direction: column;
+    }
+
+    .flex-responsive .sub {
+        width: 100%;
+    }
+
+    .commentaires {
+        width: 100vw;
+
+    }
+
+    .card {
+        width: 100vw;
+    }
+
+
+}
